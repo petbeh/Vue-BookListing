@@ -5,11 +5,7 @@
 <script>
 export default {
   name: 'BookItem',
-  data: function() {
-      return {
-        props: 'book'
-      }
-  }
+  props: [ 'book' ]
 }
 </script>
 
